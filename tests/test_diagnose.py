@@ -10,7 +10,6 @@ def test_diagnose_placeholder():
     Test that the diagnose_placeholder function runs successfully.
     """
     result = diagnose_placeholder()
-    
     assert result is not None
     assert isinstance(result, dict)
     assert result["status"] == "success"
