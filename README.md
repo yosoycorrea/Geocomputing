@@ -1,4 +1,4 @@
-Proyectando a la Tendencia Fuera  
+
 Ecosistema GEO 2026 para la lectura y transformación del espacio
 
 1. ¿Qué es este repositorio?
