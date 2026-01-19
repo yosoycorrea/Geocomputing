@@ -21,7 +21,7 @@ def generate_abstract_map(
     edge_labels: bool = True,
     save_path: Optional[str] = None,
     figsize: tuple = (12, 8)
-) -> nx.Graph:
+) -> nx.DiGraph:
     """
     Generate an abstract map visualization from relational data.
     
@@ -219,8 +219,6 @@ def analyze_graph(graph: nx.Graph) -> dict:
         - density: Graph density
         - avg_degree: Average node degree
     """
-    # TODO: Implement graph analysis metrics
-    # Placeholder for future functionality
     
     metrics = {
         'num_nodes': graph.number_of_nodes(),
